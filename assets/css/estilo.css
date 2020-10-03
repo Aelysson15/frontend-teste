@@ -1,0 +1,117 @@
+#email-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 54px;
+    left: 178px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+#btn-topo {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 19px 15px 19px;
+    position: static;
+    background: #FFFFFF;
+    color: #EF2779;
+    border-radius: 35px;
+    align-self: center;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.logo {
+    font-weight: 500;
+    padding: 15px 19px 15px 19px;
+    position: static;
+    width: 186px;
+    left: 10px;
+    top: 10px;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+#banner {
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    padding-bottom: 10rem;
+}
+
+#features {
+    display: block;
+    margin-top: -290px;
+}
+#bg {
+    padding-top: 80px;
+    background: #252B42;
+}
+.onda {
+    width: 100%;
+    height: auto;
+}
+.minetext {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.title-larg {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.title-medio {
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.padding-right {
+    padding-right: 10px;
+}
+/* #prototyping {
+    padding-top: 80px;
+} */
+.btn-try {
+    font-weight: 600;
+    min-width: 200px;
+    align-items: flex-start;
+    padding: 16px 20px 16px 20px;
+    position: static;
+    background: #38A3F1;
+    border-radius: 35px;
+    align-self: center;
+}
+#img-proto {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+#form {
+    margin-top: 20px;
+}
+.input-email {
+    margin: auto;
+    align-items: flex-start;
+    padding: 18px 20px 20px 18px;
+    background: #e7e7e7;
+    width: 300px;
+    height: 54px;
+    left: 178px;
+    top: 232px;
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+.btn-submeter {
+    align-items: flex-start;
+    padding: 18px 20px 20px 18px;
+    background: #EF2779;
+    width: 300px;
+    height: 54px;
+    left: 178px;
+    top: 232px;
+    box-sizing: border-box;
+    border-radius: 39px;
+}

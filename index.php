@@ -57,7 +57,7 @@
         <img class="img-fluid tela" src="assets/imgs/tela.png" alt="Tela">
       </div>
       <div class="offset-md-1 col-md-5">
-        <h1 class="display-4 titulo-banner">We focus on ergonomics</h1>
+        <h2 class="display-4 titulo-banner">We focus on ergonomics</h2>
         <p class="minetext">Most calendars are designed for teams. <br>
           Slate is designed for freelancers</p><br>
           <button type="button" class="btn btn-primary btn-try-bg">Try For Free</button>
@@ -71,7 +71,7 @@
   <img class="img-fluid onda" src="assets/imgs/onda_banner.png" alt="">
   <div id="bg" class="container-fluid text-center">
     <span class="minetext">At your fingertipes</span>
-    <h1 class="minetext title-larg ">Features</h1>
+    <h2 class="minetext title-larg ">Features</h2>
     <p class="minetext">Most calendars are designed for teams. <br>
       Slate is designed for freelancers</p><br>
     <div class="container">
@@ -104,7 +104,7 @@
 
 <section id="sessoes">
   <div id="bg" class="container-fluid text-center">
-    <h1 class="minetext title-larg ">Lightning fast prototyping </h1>
+    <h2 class="minetext title-larg ">Lightning fast prototyping </h2>
     <p class="minetext">Most calendars are designed for teams. <br>
       Slate is designed for freelancers</p><br>
     
@@ -119,7 +119,7 @@
 <section id="sessoes">
   <div id="bg" class="container-fluid text-center">
     <p class="minetext">At your fingertips</p><br>
-    <h1 class="minetext title-larg ">Lightning fast prototyping </h1>
+    <h2 class="minetext title-larg ">Lightning fast prototyping </h2>
 
     <p class="minetext">Subscribe to our Newsletter</p>
     <span class="minetext">Available exclusivery on Figmaland</span>
@@ -136,14 +136,129 @@
   </div>
 </section>
 
-<section id="sessoes">
+<section id="partners">
   <div id="bg" class="container-fluid text-center">
-    <h1 class="minetext title-larg ">Partners</h1>
+    <h2 class="minetext title-larg ">Partners</h2>
     <p class="minetext">Most calendars are designed for teams. 
       Slate is designed for freelancers</p><br>
     
-    <div id="img-proto" class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/cube.png" alt="icon1">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/android.png" alt="icon2">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/basecamp.png" alt="icon3">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/basecamp.png" alt="icon1">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/air-bnb.png" alt="icon2">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="name">Client Name</p>
+            <img class="img-fluid icone" src="assets/imgs/app-store.png" alt="icon3">
+            <p class="minetext">Slate helps you see how many
+              more days you need to work to
+              reach your financial goal.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
 
+<section id="testimonials">
+  <div id="bg" class="container-fluid text-center">
+    <h2 class="minetext title-larg ">Testimonials</h2>
+    <p class="minetext">Most calendars are designed for teams. 
+      Slate is designed for freelancers</p><br>
+
+    <img class="img-fluid" style="max-width:200px;margin-bottom:20px;" src="assets/imgs/dropbox.png" alt="dropbox"><br>
+    <span class="minetext">Most calendars are designed for teams. Slate is designed for <br>freelancers who want a simple 
+      way to plan their schedule.</span>
+    <div class="container" style="margin-top:25px;">
+      <p class="minetext title-medio">
+        <img class="padding-right" src="assets/imgs/user.png" alt="">
+        <span style="font-weight: 500;">Organize across</span><br>
+        Ui designer</p>
+      <button type="button" class="btn btn-primary btn-try">More Testimonials</button>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div id="bg" class="container-fluid text-center">
+    <h2 class="minetext title-larg ">Pricing</h2>
+    <p class="minetext">Most calendars are designed for teams. <br>
+      Slate is designed for freelancers</p><br>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <button type="button" class="btn btn-primary btn-try">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <button type="button" class="btn btn-primary btn-try">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+        color: #fff;">
+          <div class="card-body">
+            <h3 class="card-title text-left">BUSINESS</h3>
+            <p class="card-subtitle mb-2 text-left text-muted sub-branco">Organize across all apps by hand</p>
+            <div class="row">
+              <div class="col-4">
+                <h1 class="card-text text-right">99</h1>
+              </div>
+              <div class="col-8">
+                <h3 class="text-left">$</h3>
+                <p class="sub-branco text-left">Per Month</p>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-try-bg2" style="color: #eb277b">Order Now</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

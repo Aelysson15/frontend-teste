@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Front-end</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
@@ -54,13 +54,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img class="img-fluid tela" src="assets/imgs/tela.png" alt="Tela">
+        <img id="fade" class="img-fluid tela" src="assets/imgs/tela.png" alt="Tela">
       </div>
       <div class="offset-md-1 col-md-5">
         <h2 class="display-4 titulo-banner">We focus on ergonomics</h2>
         <p class="minetext">Most calendars are designed for teams. <br>
           Slate is designed for freelancers</p><br>
-          <button type="button" class="btn btn-primary btn-try-bg">Try For Free</button>
+          <button type="button" class="btn btn-primary btn-try-bg zoom">Try For Free</button>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@
     <p class="minetext">Most calendars are designed for teams. <br>
       Slate is designed for freelancers</p><br>
     
-    <button type="button" class="btn btn-primary btn-try">Try For Free</button>
+    <button type="button" class="btn btn-primary btn-try zoom">Try For Free</button>
 
     <div id="img-proto" class="container">
       <img class="img-fluid" src="assets/imgs/proto.png" alt="">
@@ -146,21 +146,21 @@
         <div class="row">
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/cube.png" alt="icon1">
+            <img class="img-fluid icone zoom" src="assets/imgs/cube.png" alt="icon1">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
           </div>
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/android.png" alt="icon2">
+            <img class="img-fluid icone zoom" src="assets/imgs/android.png" alt="icon2">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
           </div>
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/basecamp.png" alt="icon3">
+            <img class="img-fluid icone zoom" src="assets/imgs/basecamp.png" alt="icon3">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
@@ -170,21 +170,21 @@
         <div class="row">
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/basecamp.png" alt="icon1">
+            <img class="img-fluid icone zoom" src="assets/imgs/basecamp.png" alt="icon1">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
           </div>
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/air-bnb.png" alt="icon2">
+            <img class="img-fluid icone zoom" src="assets/imgs/air-bnb.png" alt="icon2">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
           </div>
           <div class="col-md-4">
             <p class="name">Client Name</p>
-            <img class="img-fluid icone" src="assets/imgs/app-store.png" alt="icon3">
+            <img class="img-fluid icone zoom" src="assets/imgs/app-store.png" alt="icon3">
             <p class="minetext">Slate helps you see how many
               more days you need to work to
               reach your financial goal.</p>
@@ -221,7 +221,7 @@
 
     <div class="row">
       <div class="col-md-4">
-        <div class="card" style="width: 18rem; margin: auto;">
+        <div class="card zoom" style="width: 18rem; margin: auto;">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
             <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
@@ -231,7 +231,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card" style="width: 18rem; margin: auto;">
+        <div class="card zoom" style="width: 18rem; margin: auto;">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
             <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
@@ -241,7 +241,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;margin: auto;background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+        <div class="card zoom" style="width: 18rem;margin: auto;background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
         color: #fff;">
           <div class="card-body">
             <h3 class="card-title text-left">BUSINESS</h3>

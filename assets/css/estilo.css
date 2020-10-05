@@ -22,6 +22,7 @@
     background: transparent !important;
 } */
 #btn-topo {
+    line-height: 1.5;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -60,8 +61,7 @@
 }
 #banner {
     background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
-    /* padding-bottom: 10rem; */
-    /* padding-top: 105px; */
+    padding-top: 0;
     margin-bottom: -100px;
 }
 .titulo-banner {
@@ -294,4 +294,13 @@
 }
 iframe {
     border-radius: 22px;
+}
+/* efeitos */
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

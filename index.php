@@ -51,7 +51,7 @@
     </div>
   </nav>
   <!-- baner -->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         <img class="img-fluid tela" src="assets/imgs/tela.png" alt="Tela">
@@ -221,7 +221,7 @@
 
     <div class="row">
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; margin: auto;">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
             <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
@@ -231,7 +231,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; margin: auto;">
           <div class="card-body">
             <h5 class="card-title">Título do card</h5>
             <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
@@ -241,7 +241,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+        <div class="card" style="width: 18rem;margin: auto;background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
         color: #fff;">
           <div class="card-body">
             <h3 class="card-title text-left">BUSINESS</h3>
@@ -258,6 +258,102 @@
             <button type="button" class="btn btn-primary btn-try-bg2" style="color: #eb277b">Order Now</button>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container">
+    <h2 class="minetext text-black title-larg text-center" style=>Contact Us</h2>
+    <p class="minetext text-black text-center">Most calendars are designed for teams. <br>
+    Slate is designed for freelancers<br>
+  
+  
+    <div class="row">
+      <div class="col-md-6">
+        <div id="card-contato" class="card">
+          <div class="card-body">
+              <h5 class="card-title">Contact Us</h5>
+              <form class="my-2 my-lg-0">
+                <div class="form-group">
+                  <input id="input-contato" class="form-control mr-sm-2" type="search" placeholder="Your Name"
+                    aria-label="Your Email">
+                </div>
+                <div class="form-group">
+                  <input id="input-contato" class="form-control mr-sm-2" type="search" placeholder="Your Email"
+                  aria-label="Your Email">
+                </div>
+                <div class="form-group">
+                  <textarea id="area-contato" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-send">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-6">
+        <ul id="contatos" class="list-group list-group-flush">
+          <li class="list-group-item"><img src="assets/imgs/map.png" alt="map"> <span>6386 Spring St undefined Anchorage, <br>
+            Georgia 12473 United States</span></li>
+          <li class="list-group-item"><img src="assets/imgs/phone.png" alt="map"> <span>(843) 555-0130</li>
+          <li class="list-group-item"><img src="assets/imgs/mail.png" alt="map"> <span>my.mail@example.com</li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/tw.png" alt="tw"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/fb.png" alt="fb"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/in.png" alt="in"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="container-fluid">
+  
+    <div class="row">
+      <div class="col-md-3">
+        <ul id="contatos" class="list-group list-group-flush">
+          <li class="list-group-item"><h2 class="minetext" style=>Pages</h2></li>
+          <li class="list-group-item"><span>Eleanor Edwards</span></li>
+          <li class="list-group-item"><span>Ted Robertson</span></li>
+          <li class="list-group-item"><span>Annette Russell</span></li>
+          <li class="list-group-item"><span>Jennie Mckinney</span></li>
+          <li class="list-group-item"><span>Gloria Richards</span></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5">
+        <div class="mapouter">
+          <iframe width="472" height="247" class="responsive-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Almirante%20Barroso,%20284%20Campina%20Grande+(Teste)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/pt'>Maps-Generator</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=dd1e3f4086ef86dcd2612133caee9b7d74153e8b'></script>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <ul id="contatos" class="list-group list-group-flush">
+          <li class="list-group-item"><img src="assets/imgs/map.png" alt="map"> <span>6386 Spring St undefined Anchorage, <br>
+            Georgia 12473 United States</span></li>
+          <li class="list-group-item"><img src="assets/imgs/phone.png" alt="map"> <span>(843) 555-0130</li>
+          <li class="list-group-item"><img src="assets/imgs/mail.png" alt="map"> <span>my.mail@example.com</li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/tw.png" alt="tw"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/fb.png" alt="fb"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="assets/imgs/in.png" alt="in"></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

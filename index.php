@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Front-end</title>
+    <title>Teste</title>
     <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -332,7 +332,7 @@
 
       <div class="col-md-5">
         <div class="mapouter">
-          <iframe width="472" height="247" class="responsive-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Almirante%20Barroso,%20284%20Campina%20Grande+(Teste)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/pt'>Maps-Generator</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=dd1e3f4086ef86dcd2612133caee9b7d74153e8b'></script>
+          <iframe width="100%" height="247" class="responsive-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Av.%20Almirante%20Barroso,%20284%20Campina%20Grande+(Teste)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/pt'>Maps-Generator</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=dd1e3f4086ef86dcd2612133caee9b7d74153e8b'></script>
         </div>
       </div>
 
